@@ -4,3 +4,7 @@ Used Sensor: https://www.dfrobot.com/wiki/index.php/Gravity:_Analog_Sound_Level_
 Values checked using calibrated Sensor
 Microcontroller with 12bit ADC
 Measured about 5 meters from middle of the street at 3 meters from ground
+
+Usage:
+
+  docker run --name l793-data -p 5432:5432 -e POSTGRES_PASSWORD=noise quay.io/codeformuenster/l793-noise-data
